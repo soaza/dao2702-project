@@ -13984,6 +13984,9 @@ a.anchor-link {
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">matplotlib.ticker</span> <span class="k">as</span> <span class="nn">ticker</span>
 
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
+
 <span class="c1"># Formatters</span>
 <span class="nd">@ticker</span><span class="o">.</span><span class="n">FuncFormatter</span>
 <span class="k">def</span> <span class="nf">billion_formatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">):</span>
@@ -14086,19 +14089,6 @@ a.anchor-link {
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/jf/s8mc6w1n4kjfldmnfbjbxyfr0000gn/T/ipykernel_45124/1778846429.py:9: UserWarning: FixedFormatter should only be used together with FixedLocator
-  ax.set_xticklabels(x)
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 
 
 <div class="jp-RenderedImage jp-OutputArea-output ">
@@ -14143,19 +14133,6 @@ a.anchor-link {
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/jf/s8mc6w1n4kjfldmnfbjbxyfr0000gn/T/ipykernel_45124/4026491848.py:9: UserWarning: FixedFormatter should only be used together with FixedLocator
-  ax.set_xticklabels(x)
-</pre>
-</div>
-</div>
 
 <div class="jp-OutputArea-child">
 
